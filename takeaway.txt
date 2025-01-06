@@ -1,0 +1,47 @@
+Mern: MongoDB, Express js, react, Node
+
+api: application programming interface
+
+Send mail
+bcrypt js
+store file in db
+JWT Token (imp for interview)
+
+Login management
+
+
+CRUD: Create, read, update, delete
+
+Frontend:
+hit api: Request
+
+Backend: 
+CRUD, make api, Response
+
+Database:
+store data or save data 
+
+CRUD:
+Create: POST
+Read:   GET
+Update: PATCH
+Delete: DELETE
+
+
+
+
+flow: schema => model => controller => router => index
+
+
+user,
+teacher,
+student,
+books,
+school,
+vehicle,
+laptop,
+college,
+employee,
+company
+
+
