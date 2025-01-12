@@ -18,7 +18,7 @@ export const createTeacherController = async (req, res, next) => {
 
 export const getAllTeacherController = async (req, res, next) => {
   try {
-    let result = await Teacher.find({});
+    let result = await Teacher.find({ name: "Amish" });
     res.json({
       success: true,
       message: "retrieved all teacher info",
