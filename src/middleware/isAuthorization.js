@@ -8,7 +8,7 @@ export const isAuthorized = (roles) => {
       let tokenRole = result.role;
 
       if (roles.includes(tokenRole)) {
-        next();
+        return next();
       }
       res.status(400).json({
         success: false,
